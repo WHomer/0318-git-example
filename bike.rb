@@ -1,6 +1,7 @@
 class Bike
-  def initialize(name, model)
+  def initialize(type, name, color)
+    @type = type
     @name = name
-    @model = model
+    @color = color
   end
 end
